@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+
+config.env
+
+# Django migrations
+**/migrations/**
+
+# Database files
+*.sqlite3
+
+# Local development environment
+.env
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+*.pot
+*.log.*
+
+# Media / Uploaded files
+media/
+
+# Static files
+staticfiles/
+static/
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+.venv/
+.pyvenv/
+
+# Ignore macOS and other system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore coverage and test result files
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+nosetests.xml
+test_*.xml
+.pytest_cache/
+
+# Ignore IDE-specific files
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Ignore pipenv files
+Pipfile.lock
+
+# Ignore compiled translations
+*.mo
+
+# Ignore build and distribution directories
+build/
+dist/
+*.egg-info/
+
+
+
+# Ignore Docker-related files if using Docker
+docker-compose.override.yml
+docker-compose.override.*.yml
