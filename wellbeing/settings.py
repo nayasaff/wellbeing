@@ -90,6 +90,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3001",
     "https://well-being-frontend.vercel.app/",
     "http://127.0.0.1:3000",
+    "nayasaf.pythonanywhere.com"
 ]
 
 
