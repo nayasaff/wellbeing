@@ -33,7 +33,7 @@ SECRET_KEY = os.getenv('Django_Secret_Key')
 DEBUG = True
 
 
-ALLOWED_HOSTS = [os.getenv("BACKED_URL")]
+ALLOWED_HOSTS = [os.getenv("BACKED_URL"), "127.0.0.1"]
  
 # Application definition
 
