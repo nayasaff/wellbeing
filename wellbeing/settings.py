@@ -34,7 +34,7 @@ DEBUG = True
 
 
 ALLOWED_HOSTS = [os.getenv("BACKED_URL")]
-
+ 
 # Application definition
 
 INSTALLED_APPS = [
