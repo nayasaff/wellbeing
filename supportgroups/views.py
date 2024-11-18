@@ -11,7 +11,7 @@ from supportgroups.serializers import *
 from supportgroups.helpers import update_all_roles
 from lists.libraries import groupCategory
 
-load_dotenv('config.env')
+load_dotenv('.env')
 # Create your views here.
 
 
